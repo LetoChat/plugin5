@@ -1,11 +1,13 @@
 # LetoChat - Generic Plugin 5
----
+
 !!! THIS REPO IS UNDER CONSTRUCTION !!!
+
 Use this plugin if your project supports only PHP 5.6. For projects running with PHP 7+, use [this plugin instead](https://github.com/letochat/plugin7).
+
 If you have a custom web application and want to integrate advance features of LetoChat platform, we strongly recommend use of this.
 This is an official connector for LetoChat platform.
 
-### Dedicated plugins
+## Dedicated plugins
 
 In case your project is based on a known platform, take a look and check if you have luck to have a dedicated plugin for it:
 
@@ -18,7 +20,7 @@ In case your project is based on a known platform, take a look and check if you 
 
 If you didn't find it in the upper table, now let's get started with the basics.
 
-### Getting started
+## Getting started
 
 Using composer
 
@@ -29,7 +31,7 @@ Without composer
 Take a look in /src folder and grab what you need.
 
 
-```
+```php
 $channelId = 'your channel id';
 $channelSecret = 'your channel secret';
 
