@@ -21,7 +21,7 @@
             ]);
 
             // Create the token payload
-            $payload = json_encode(array_merge($data, [
+            $payload = json_encode(array_merge($this->data, [
                 'exp' => time() + $exp
             ]));
 
@@ -38,10 +38,7 @@
             $base64UrlSignature = self::base64UrlEncode($signature);
 
             // Compose JWT
-            $jwt = $base64UrlHeader . "." . $base64UrlPayload . "." . $base64UrlSignature;
-
-            // done
-            return $jwt;
+            return $base64UrlHeader . "." . $base64UrlPayload . "." . $base64UrlSignature;
 
         }
 
