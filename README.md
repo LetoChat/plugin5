@@ -50,7 +50,7 @@ In case your project is based on a known platform, take a look and check if you 
         <img src="https://avatars.githubusercontent.com/u/276006?s=45">
     </td>
     <td>
-        <strong>Wordpress</strong><br>
+        <strong>WordPress</strong><br>
         <a href="https://github.com/letochat/wp-plugin">
             https://github.com/letochat/wp-plugin
         </a>
@@ -61,7 +61,7 @@ In case your project is based on a known platform, take a look and check if you 
         <img src="https://avatars.githubusercontent.com/u/473596?s=45">
     </td>
     <td>
-        <strong>WooCommerce</strong> <em>(same plugin as for Wordpress)</em><br>
+        <strong>WooCommerce</strong> <em>(same plugin as for WordPress)</em><br>
         <a href="https://github.com/letochat/wp-plugin">
             https://github.com/letochat/wp-plugin
         </a>
