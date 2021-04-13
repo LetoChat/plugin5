@@ -13,12 +13,14 @@ In case your project is based on a known platform, take a look and check if you 
 
 <table width="100%">
   <tr>
-    <td colspan="2">Platform</td>
+    <td>Platform</td>
     <td>Plugin Link</td>
   </tr>
   <tr>
-    <td><img src="https://avatars.githubusercontent.com/u/168457?s=45"></td>
-    <td>Magento 2</td>
+    <td style="vertical-align:middle;">
+        <img src="https://avatars.githubusercontent.com/u/168457?s=45">
+        Magento 2
+    </td>
     <td>
         <a href="https://github.com/letochat/magento2-plugin">
             https://github.com/letochat/magento2-plugin
@@ -29,7 +31,7 @@ In case your project is based on a known platform, take a look and check if you 
 
 | Platform | Plugin Link |
 | ----------- | ----------- |
-| Magento 2 | [https://github.com/letochat/magento2-plugin](https://github.com/letochat/magento2-plugin) |
+| <img src="https://avatars.githubusercontent.com/u/168457?s=25"> Magento 2 | [https://github.com/letochat/magento2-plugin](https://github.com/letochat/magento2-plugin) |
 | Prestashop | [https://github.com/letochat/prestashop-plugin](https://github.com/letochat/prestashop-plugin) |
 | OpenCart | [https://github.com/letochat/opencart-plugin](https://github.com/letochat/opencart-plugin) |
 | WordPress<br />(supports WooCommerce) | [https://github.com/letochat/wp-plugin](https://github.com/letochat/wp-plugin) |
