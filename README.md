@@ -13,12 +13,14 @@ In case your project is based on a known platform, take a look and check if you 
 
 <table width="100%">
   <tr>
-    <td>Platform</td>
+    <td colspan=2><strong>Supported Platforms</strong></td>
     <td>Plugin Link</td>
   </tr>
   <tr>
-    <td style="vertical-align:middle;">
+    <td vlign="center">
         <img src="https://avatars.githubusercontent.com/u/168457?s=45">
+    </td>
+    <td align="left">
         Magento 2
     </td>
     <td>
@@ -31,7 +33,7 @@ In case your project is based on a known platform, take a look and check if you 
 
 | Platform | Plugin Link |
 | ----------- | ----------- |
-| <img src="https://avatars.githubusercontent.com/u/168457?s=25"> Magento 2 | [https://github.com/letochat/magento2-plugin](https://github.com/letochat/magento2-plugin) |
+| <img src="https://avatars.githubusercontent.com/u/168457?s=20"> Magento 2 | [https://github.com/letochat/magento2-plugin](https://github.com/letochat/magento2-plugin) |
 | Prestashop | [https://github.com/letochat/prestashop-plugin](https://github.com/letochat/prestashop-plugin) |
 | OpenCart | [https://github.com/letochat/opencart-plugin](https://github.com/letochat/opencart-plugin) |
 | WordPress<br />(supports WooCommerce) | [https://github.com/letochat/wp-plugin](https://github.com/letochat/wp-plugin) |
