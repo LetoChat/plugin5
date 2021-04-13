@@ -13,17 +13,11 @@ In case your project is based on a known platform, take a look and check if you 
 
 <table width="100%">
   <tr>
-    <td colspan=2><strong>Supported Platforms</strong></td>
-    <td>Plugin Link</td>
-  </tr>
-  <tr>
-    <td vlign="center">
+    <td>
         <img src="https://avatars.githubusercontent.com/u/168457?s=45">
     </td>
-    <td align="left">
-        Magento 2
-    </td>
     <td>
+        <strong>Magento 2</strong><br>
         <a href="https://github.com/letochat/magento2-plugin">
             https://github.com/letochat/magento2-plugin
         </a>
