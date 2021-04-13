@@ -11,6 +11,18 @@ This is an official connector for LetoChat platform.
 
 In case your project is based on a known platform, take a look and check if you have luck to have a dedicated plugin for it:
 
+<table width="100%">
+  <tr>
+    <td colspan="2">Platform</td>
+    <td>Plugin Link</td>
+  </tr>
+  <tr>
+    <td>![alt text](https://avatars.githubusercontent.com/u/168457?s=45)</td>
+    <td>Magento 2</td>
+    <td>[https://github.com/letochat/magento2-plugin](https://github.com/letochat/magento2-plugin)</td>
+  </tr>
+</table>
+
 | Platform | Plugin Link |
 | ----------- | ----------- |
 | Magento 2 | [https://github.com/letochat/magento2-plugin](https://github.com/letochat/magento2-plugin) |
