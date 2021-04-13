@@ -1,9 +1,3 @@
-<style>
-table {
-    width:100%;
-}
-</style>
-
 # LetoChat - Generic Plugin 5
 
 !!! THIS REPO IS UNDER CONSTRUCTION !!!
@@ -29,14 +23,51 @@ In case your project is based on a known platform, take a look and check if you 
         </a>
     </td>
   </tr>
+  <tr>
+    <td>
+        <img src="https://avatars.githubusercontent.com/u/2815696?s=45">
+    </td>
+    <td>
+        <strong>PrestShop</strong><br>
+        <a href="https://github.com/letochat/prestashop-plugin">
+            https://github.com/letochat/prestashop-plugin
+        </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+        <img src="https://avatars.githubusercontent.com/u/214225?s=45">
+    </td>
+    <td>
+        <strong>OpenCart</strong><br>
+        <a href="https://github.com/letochat/opencart-plugin">
+            https://github.com/letochat/opencart-plugin
+        </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+        <img src="https://avatars.githubusercontent.com/u/276006?s=45">
+    </td>
+    <td>
+        <strong>Wordpress</strong><br>
+        <a href="https://github.com/letochat/wp-plugin">
+            https://github.com/letochat/wp-plugin
+        </a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+        <img src="https://avatars.githubusercontent.com/u/473596?s=45">
+    </td>
+    <td>
+        <strong>WooCommerce</strong> <em>(same plugin as for Wordpress)</em><br>
+        <a href="https://github.com/letochat/wp-plugin">
+            https://github.com/letochat/wp-plugin
+        </a>
+    </td>
+  </tr>
 </table>
-
-| Platform | Plugin Link |
-| ----------- | ----------- |
-| <img src="https://avatars.githubusercontent.com/u/168457?s=20"> Magento 2 | [https://github.com/letochat/magento2-plugin](https://github.com/letochat/magento2-plugin) |
-| Prestashop | [https://github.com/letochat/prestashop-plugin](https://github.com/letochat/prestashop-plugin) |
-| OpenCart | [https://github.com/letochat/opencart-plugin](https://github.com/letochat/opencart-plugin) |
-| WordPress<br />(supports WooCommerce) | [https://github.com/letochat/wp-plugin](https://github.com/letochat/wp-plugin) |
 
 If you didn't find it in the upper table, now let's get started with the basics.
 
