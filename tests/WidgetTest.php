@@ -19,7 +19,7 @@ class WidgetTest extends TestCase
 		];
 		
         $widget = new Widget('channel_id');
-		$widget->infos($list);
+		$widget->infoValues($list);
 		
         $this->assertEquals($list, $widget->getInfos());
     }
@@ -32,7 +32,7 @@ class WidgetTest extends TestCase
         $this->expectException(Exception::class);
 
         $widget = new Widget('channel_id');
-        $widget->infos('name', 'Ion Popescu');
+        $widget->infoValues('name', 'Ion Popescu');
     }
 
     /**
@@ -43,7 +43,7 @@ class WidgetTest extends TestCase
         $this->expectException(Exception::class);
 
         $widget = new Widget('channel_id');
-        $widget->infos('something', 'Ion Popescu');
+        $widget->infoValues('something', 'Ion Popescu');
     }
 	
 }

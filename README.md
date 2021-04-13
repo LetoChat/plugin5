@@ -30,24 +30,78 @@ Without composer
 
 Take a look in /src folder and grab what you need.
 
+## LetoChat Widget
+
+If you want to generate an advance script for chat that integrates more details about visitor, see the example below:
 
 ```php
-$channelId = 'your channel id';
-$channelSecret = 'your channel secret';
+require "vendor/autoload.php";
 
-$widget = new LetoChat\Widget($channelId, $channelSecret);
+$channelId = 'your-channel-id';
+$channelSecret = 'your-channel-secret';
 
-$widget->info('id', 1)->info('name', 'Ion Popescu');
-echo $widget->build();
+try{
 
-// or
+    $chat = (new LetoChat\Widget($channelId, $channelSecret))->infoValues([
+        'name' => 'Ion Popescu',
+        'email' => 'ion.popescu@gmail.com',
+    ])->customValues([
+        'Client type' => 'Silver',
+        'Client code' => '0456785',
+    ]);
 
-echo $widget->infos([
-    'id'    => 1,
-    'name'  => 'Ion Popescu'
-])->build();
+    $chat->event('cart-add', [
+        'id' 		=> 1,
+        'name' 		=> 'Dell Ispiron',
+        'image' 	=> 'https://dell.com/image',
+        'quantity' 	=> 1,
+        'price' 	=> 1534,
+        'currency' 	=> 'EUR',
+        'link'		=> 'https://dell.com/product-description-link',
+    ]);
+    
+    echo $chat->build();
+
+} catch ( Exception $e ){
+
+    echo 'Error generating script: ' . $e->getMessage();;
+
+}
 ```
 
-Please check our documentation from here:
+## Connect website with LetoChat platform
+
+```php
+require "vendor/autoload.php";
+	
+$channelId 		= 'your-channel-id';
+$channelSecret 	= 'your-channel-secret';
+$authSecret 	= 'your-auth-secret';
+
+$api = new LetoChat\Connector($channelId, $channelSecret, $authSecret, [
+    'get-order' 	=> 'https://example.com/api/letochat/get-order',
+    'get-orders' 	=> 'https://example.com/api/letochat/get-orders',
+    'get-user-cart' => 'https://example.com/api/letochat/get-user-cart',
+    'get-users-cart'=> 'https://example.com/api/letochat/get-users-cart',
+]);
+
+if( $api->check() ){
+    echo 'Valid channel data';
+} else {
+    echo 'Error: ' . $api->getError();
+}
+
+echo '<hr>';
+
+if( $api->connect() ){
+    echo 'Connected';
+} else {
+    echo 'Error connecting: ' . $api->getError();
+}
+```
+
+## Documentation
+
+Like others sections, this is under construct. Please check our documentation from here:
 - Widget Documentation
 - Connector Documentation
