@@ -1,3 +1,9 @@
+<style>
+table {
+    width:100%;
+}
+</style>
+
 # LetoChat - Generic Plugin 5
 
 !!! THIS REPO IS UNDER CONSTRUCTION !!!
@@ -11,7 +17,7 @@ This is an official connector for LetoChat platform.
 
 In case your project is based on a known platform, take a look and check if you have luck to have a dedicated plugin for it:
 
-<table width="100%">
+<table>
   <tr>
     <td>
         <img src="https://avatars.githubusercontent.com/u/168457?s=45">
