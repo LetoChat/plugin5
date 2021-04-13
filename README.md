@@ -51,8 +51,8 @@ In case your project is based on a known platform, take a look and check if you 
     </td>
     <td>
         <strong>WordPress</strong><br>
-        <a href="https://github.com/letochat/wp-plugin">
-            https://github.com/letochat/wp-plugin
+        <a href="https://github.com/letochat/wordpress-plugin">
+            https://github.com/letochat/wordpress-plugin
         </a>
     </td>
   </tr>
@@ -62,8 +62,8 @@ In case your project is based on a known platform, take a look and check if you 
     </td>
     <td>
         <strong>WooCommerce</strong> <em>(same plugin as for WordPress)</em><br>
-        <a href="https://github.com/letochat/wp-plugin">
-            https://github.com/letochat/wp-plugin
+        <a href="https://github.com/letochat/wordpress-plugin">
+            https://github.com/letochat/wordpress-plugin
         </a>
     </td>
   </tr>
