@@ -17,9 +17,13 @@ In case your project is based on a known platform, take a look and check if you 
     <td>Plugin Link</td>
   </tr>
   <tr>
-    <td>![alt text](https://avatars.githubusercontent.com/u/168457?s=45)</td>
+    <td><img src="https://avatars.githubusercontent.com/u/168457?s=45"></td>
     <td>Magento 2</td>
-    <td>[https://github.com/letochat/magento2-plugin](https://github.com/letochat/magento2-plugin)</td>
+    <td>
+        <a href="https://github.com/letochat/magento2-plugin">
+            https://github.com/letochat/magento2-plugin
+        </a>
+    </td>
   </tr>
 </table>
 
