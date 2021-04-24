@@ -168,6 +168,27 @@
 
         }
 		
+        public function token(){
+
+            $data = [];
+            
+            // add general infos
+            if( ! empty($this->info) )
+                $data = $this->info;
+
+            // add custom info
+            if( ! empty($this->custom) )
+                $data['custom'] = $this->custom;
+
+            // add events
+            if( ! empty($this->events) )
+                $data['events'] = $this->events;
+            
+            // done
+            return (new JWT\Token($data))->sign($this->channelSecret);
+
+        }
+
         public function build( $scriptTag = true, $optimizeCode = true ){
 
             // defines
@@ -213,23 +234,9 @@
                 return $init;
             }
             
-            $data = [];
-
-            // add general infos
-            if( ! empty($this->info) )
-                $data = $this->info;
-
-            // add custom info
-            if( ! empty($this->custom) )
-                $data['custom'] = $this->custom;
-
-            // add events
-            if( ! empty($this->events) )
-                $data['events'] = $this->events;
-
             // generate JWT
-            if( ! empty($data) )
-                $init['token'] = (new JWT\Token($data))->sign($this->channelSecret);
+            if( ! empty($this->info) || ! empty($this->custom) || ! empty($this->events) )
+                $init['token'] = $this->token();
 
             // done
             return $init;
@@ -239,7 +246,6 @@
         private function optimizeCode( $code ){
 
             $code = preg_replace('/\s+/', '', $code);
-
             return $code;
 
         }
