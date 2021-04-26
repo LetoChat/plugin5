@@ -227,7 +227,7 @@
         private function composeInitData(){
 
             $init = [
-                'apiKey' => $this->channelId
+                'cid' => $this->channelId
             ];
 
             if( $this->channelSecret == null ){
