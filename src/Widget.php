@@ -197,7 +197,7 @@
 
             // compose script
             $script = '(function (w, d, s, o, f, js, fjs) {
-                        w["LetoChat"] = o;
+                        w["LetoChatWidget"] = o;
                         w[o] =
                         w[o] ||
                         function () {
@@ -208,8 +208,8 @@
                         js.src = f;
                         js.async = 1;
                         fjs.parentNode.insertBefore(js, fjs);
-                    })(window, document, "script", "w1", "'.$chatWidget.'");
-                    w1("init", '.$initData.');';
+                    })(window, document, "script", "LetoChat", "'.$chatWidget.'");
+                    LetoChat("init", '.$initData.');';
 
             // optimize JS code
             if( $optimizeCode )
